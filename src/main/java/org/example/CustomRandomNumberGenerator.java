@@ -16,6 +16,7 @@ public class CustomRandomNumberGenerator {
 
         Scanner scanner = new Scanner(System.in);
         int option;
+        System.out.print("\n");
         do {
             System.out.print("Enter the minimum value: ");
             int min = scanner.nextInt();
@@ -46,8 +47,8 @@ public class CustomRandomNumberGenerator {
 
 
 
-        }while(option!=0 && option==1);
+        }while(option == 1);
 
-        System.out.println("Thank youuu...");
+        System.out.println("Thank youuu..");
     }
 }
